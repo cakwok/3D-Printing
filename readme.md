@@ -24,6 +24,7 @@ The model has reached a F1 score 0.99954 for training, 0.99659 for validation.
 Kaggle account: kathmanducow
 
 ##### Citation
+```
 @misc{early-detection-of-3d-printing-issues,
     author = {Kenneth},
     title = {Early detection of 3D printing issues},
@@ -31,4 +32,4 @@ Kaggle account: kathmanducow
     year = {2023},
     url = {https://kaggle.com/competitions/early-detection-of-3d-printing-issues}
 }
-
+```
