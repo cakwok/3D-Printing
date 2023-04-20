@@ -1,6 +1,6 @@
 ## 3D Printing Extrusion Detection Project Summary
 
-The goal of the project is to participate in the Kaggle competition for Early Detection of 3D Printing Issues, with the aim of detecting a common error in 3D printing - under extrusion - at an early stage. 
+The goal of the project is to detect a common error in 3D printing - under extrusion - at an early stage. 
 
 The process of 3D printing involves pushing molten plastic through a small nozzle onto a print bed, and the errors are monitored using close-up cameras mounted near the printer nozzle.
 
@@ -23,7 +23,7 @@ Label Distribution:
 ```
 
 ### Architecture
-The model is built on the foundation of Resnet32. In order to obtain the best validation F1 score, network assembly, inference resize, L2 regularization, has been combined in place during the experiments.
+The model is built on the foundation of Resnet32.  The challenge of this problem lies not only in performing the classification task accurately but also in overcoming the issue of overfitting. The goal is to achieve the best testing F1 score, which requires careful consideration of various techniques such as regularization, data augmentation, and hyperparameter tuning.  Extensive experimentation has been conducted with network assembly, inference resize, and L2 regularization to optimize the model's performance and ensure that it generalizes well to unseen data.
 
 ### Evaluation matrix
 
@@ -33,8 +33,7 @@ The evaluation of model performance is based on F1 score
 F1 = 2 * (precision * recall) / (precision + recall)
 ```
 ### Result
-
-The model has reached a F1 score 0.99954 for training, 0.99659 for validation.
+The training set has resulted in an impressive F1 score of 0.99954, while the validation set has achieved a highly commendable score of 0.99659. These scores indicate that the model is highly accurate and precise in detecting and classifying the targeted issue of under extrusion in 3D printing
 
 ### Contestant
 Kaggle account: kathmanducow
