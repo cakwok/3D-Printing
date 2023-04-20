@@ -1,6 +1,6 @@
 ## 3D Printing Extrusion Detection Project Summary
 
-The goal of the project is to detect a common error in 3D printing - under extrusion - at an early stage. 
+The goal of the project is to build a model to detect a common error in 3D printing - under extrusion - at an early stage. 
 
 The process of 3D printing involves pushing molten plastic through a small nozzle onto a print bed, and the errors are monitored using close-up cameras mounted near the printer nozzle.
 
