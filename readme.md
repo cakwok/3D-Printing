@@ -25,6 +25,8 @@ Label Distribution:
 ### Architecture
 The model is built on the foundation of Resnet32.  The challenge of this problem lies not only in performing the classification task accurately but also in overcoming the issue of overfitting. The goal is to achieve the best testing F1 score, which requires careful consideration of various techniques such as regularization, data augmentation, and hyperparameter tuning.  Extensive experimentation has been conducted with network assembly, inference resize, and L2 regularization to optimize the model's performance and ensure that it generalizes well to unseen data.
 
+![image](https://user-images.githubusercontent.com/21034990/233728397-8396ac1e-f65a-432c-8c32-81e5da775dc4.png)
+
 ### Evaluation matrix
 
 The evaluation of model performance is based on F1 score 
